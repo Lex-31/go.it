@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /* position: relative; */
+    background-color: #F5F7FA;
+}
+
+/* li {
+    background-color: #fff;
+    color: #595959;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #fff;
+    width: 1200px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    padding-left: 88px;
+}
+
+.about-me {
+    background: rgb(238, 213, 213);
+    margin-top: 87px;
+    width: 400px;
+}
+
+.about-me__profession {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 19px;
+} 
+
+.about-me__name {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 24px;
+}
+
+.about-me__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-projects {
+    background: rgb(158, 177, 133);
+    margin-top: 40px;
+    width: 485px;
+}
+
+.my-projects__name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+
+.my-projects__list {
+    padding-left: 16px;
+}
+
+.margin-li {
+    margin-left: 13px;
+}
+
+.my-projects__item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.my-projects__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-work {
+    background: rgb(45, 117, 111);
+}
+
+.my-education {
+    background: rgb(85, 63, 138);
+}
+
+.sidebar {
+    background-color: #1E2939;
+    width: 370px;
+}
+
+.sidebar__photo {
+    margin-top: 40px;
+}
+
+.contacts {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.sidebar__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFF;
+    margin-bottom: 8px;
+}
+
+.contacts__type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    margin-right: 5px;
+}
+
+.contacts__link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.tech-skills {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.soft-skills {
+    margin-top: 44px;
+    margin-left: 40px;
+}
+
+.skills__list {
+    padding-left: 13px;
+}
+
+.skills__item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+
+.skills__item_text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+}
