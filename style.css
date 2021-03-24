@@ -10,13 +10,12 @@ body {
     background-color: #F5F7FA;
 }
 
-/* li {
-    background-color: #fff;
-    color: #595959;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-} */
+h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
 
 .main-container {
     display: flex;
@@ -27,14 +26,17 @@ body {
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
     padding-left: 88px;
+    padding-right: 217px;
+    padding-bottom: 122px;
 }
 
 .about-me {
-    background: rgb(238, 213, 213);
+    /* background: rgb(238, 213, 213); */
     margin-top: 87px;
     width: 400px;
 }
@@ -61,7 +63,7 @@ body {
 }
 
 .my-projects {
-    background: rgb(158, 177, 133);
+    /* background: rgb(158, 177, 133); */
     margin-top: 40px;
     width: 485px;
 }
@@ -79,6 +81,7 @@ body {
 
 .margin-li {
     margin-left: 13px;
+
 }
 
 .my-projects__item {
@@ -95,16 +98,74 @@ body {
 }
 
 .my-work {
-    background: rgb(45, 117, 111);
+    /* background: rgb(88, 114, 112); */
+    margin-top: 51px;
+}
+
+.my-work__name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.orange-name {
+    color: #FB6D3A;
+}
+
+.data {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+
+.data-separator {
+    color: #000000;
+}
+
+.my-work__list {
+    padding-left: 16px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-work__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 10px;
 }
 
 .my-education {
-    background: rgb(85, 63, 138);
+    /* background: rgb(85, 63, 138); */
+    margin-top: 43px;
+    width: 327px;
+}
+
+.my-education__name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.my-education__faculty {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
 }
 
 .sidebar {
     background-color: #1E2939;
     width: 370px;
+    margin-right: 0;
 }
 
 .sidebar__photo {
